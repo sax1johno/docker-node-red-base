@@ -1,0 +1,34 @@
+{
+  "name": "node-red-base",
+  "version": "1.0.0",
+  "description": "Node-red-base is a docker container with a blank node-red instance.  It contains all of the configuration and settings needed to store node-red flows in a specified external volume.  This can be used as a base project for other node-red centric applications.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "John O'Connor (sax1johno@gmail.com)",
+  "license": "ISC",
+  "dependencies": {
+    "cookie-parser": "^1.4.1",
+    "express": "4.13.4",    
+    "node-red": "sax1johno/node-red",
+    "node-red-contrib-auth": "^0.1.5",
+    "node-red-contrib-http-multipart": "^0.1.4",
+    "node-red-contrib-seneca": "^0.1.1",
+    "node-red-node-aws": "^0.1.0",
+    "node-red-node-email": "0.1.*",
+    "node-red-node-feedparser": "0.1.*",
+    "node-red-node-mongodb": "0.0.5",    
+    "node-red-node-rbe": "0.1.*",
+    "node-red-node-swagger": "^0.1.5",    
+    "node-red-node-twitter": "0.1.*",
+    "raw-body": "2.1.6",
+    "semver": "5.1.0",
+    "sentiment": "1.0.6"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5",
+    "node-red-admin": "^0.1.2"
+  }  
+}
