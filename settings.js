@@ -147,7 +147,7 @@ module.exports = {
       "template": {
         "swagger": "2.0",
         "info": {
-          "title": "<Your App Name Here>",
+          "title": "Node red sample swagger",
           "version": "0.1.0"
         }
       }

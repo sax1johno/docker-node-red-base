@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node-red -s settings.js"
+    "start": "node-red -s settings/settings.js"
   },
   "author": "John O'Connor (sax1johno@gmail.com)",
   "license": "ISC",
