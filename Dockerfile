@@ -2,6 +2,8 @@ FROM node:argon
 RUN mkdir -p /usr/src/
 VOLUME ["/usr/src/flows", "/usr/src/settings"]
 COPY package.json /usr/src
+COPY settings.js /usr/src/settings
+COPY flows/ /user/src/flows
 WORKDIR /usr/src
 RUN npm install
 EXPOSE 1880
